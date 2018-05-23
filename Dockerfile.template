@@ -7,7 +7,7 @@ FROM billyteves/alpine-golang-glide:1.2.0 as GO
 
 ARG PROJECT_DIR
 
-RUN mkdir -p $PROJECT_DIR
+RUN "mkdir -p $PROJECT_DIR"
 COPY . $PROJECT_DIR
 WORKDIR $PROJECT_DIR
 

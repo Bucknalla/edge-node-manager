@@ -1,5 +1,5 @@
-hash: fbc8dae34f332f4e4e74ba54b2786f9c7b1141657a9ed4f274456e0792a218b1
-updated: 2017-09-07T12:26:28.66483479+01:00
+hash: 90833ad9e447fe9ef7ed71eb8ca6e04375d9ed62256672a87b4dafcf9b2cec97
+updated: 2018-05-22T22:28:24.724245627+01:00
 imports:
 - name: github.com/asdine/storm
   version: 2da548c16156b3197728372bff5614033084aff5
@@ -40,7 +40,7 @@ imports:
 - name: github.com/gorilla/context
   version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
-  version: bcd8bc72b08df0f70df986b97f95590779502d31
+  version: e3702bed27f0d39777b0b37b664b6280e8ef8fbf
 - name: github.com/grandcat/zeroconf
   version: 2f133dcabb8c1dc0e63ec6bb9e2c405179db3033
 - name: github.com/jmoiron/jsonq
@@ -67,6 +67,24 @@ imports:
   version: a578a48e8d6ca8b01a3b18314c43c6716bb5f5a3
 - name: github.com/pkg/errors
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/resin-io/edge-node-manager
+  version: 5b5b0de8e5e9e083b81aabcf3159ce310746432d
+  subpackages:
+  - application
+  - board
+  - board/esp8266
+  - board/microbit
+  - board/nrf51822dk
+  - config
+  - device
+  - device/hook
+  - device/status
+  - micro/nrf51822
+  - process
+  - process/status
+  - radio/bluetooth
+  - radio/wifi
+  - supervisor
 - name: github.com/Sirupsen/logrus
   version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
 - name: github.com/ulikunitz/xz

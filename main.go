@@ -79,7 +79,7 @@ func init() {
 
 	go func() {
 		router := api.NewRouter()
-		port := ":1337"
+		port := ":8081"
 
 		log.WithFields(log.Fields{
 			"Port": port,
